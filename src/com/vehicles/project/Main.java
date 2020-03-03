@@ -1,8 +1,8 @@
 package com.vehicles.project;
 
 import java.util.Scanner;
-
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Main {
@@ -17,9 +17,11 @@ public class Main {
 		System.out.println("Insert color: ");
 		String color = input.next();
 		
-		
-		
 		Car car1 = new Car(plate,brand,color);
+		
+		
+		
+		
 		
 
 	}
