@@ -16,7 +16,7 @@ public class Main {
 		String brand = input.next();
 		System.out.println("Insert color: ");
 		String color = input.next();
-		hjkshdkjsah
+		
 		
 		
 		Car car1 = new Car(plate,brand,color);
