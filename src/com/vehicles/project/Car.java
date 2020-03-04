@@ -21,6 +21,7 @@ public class Car extends Vehicle {
 		Wheel leftWheel = wheels.get(1);
 
 		if (!rightWheel.equals(leftWheel))
+			
 			throw new Exception();
 
 		this.wheels.add(leftWheel);
