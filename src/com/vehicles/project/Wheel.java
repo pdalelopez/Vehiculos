@@ -11,9 +11,27 @@ public class Wheel {
 		this.diameter = diameter;
 	}
 	
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) return true;
+		if (obj == null) return false;
+		if (getClass() != obj.getClass())return false;
+		
+		Wheel other = (Wheel) obj;
+		if (brand == null) {
+			if (other.brand != null)
+				return false;
+		} else if (!brand.equals(other.brand))
+			return false;
+		if (Double.doubleToLongBits(diameter) != Double.doubleToLongBits(other.diameter))
+			return false;
+		return true;
+	}
+
 	@Override
 	public String toString() {
-		return "Wheel [brand=" + brand + ", diameter=" + diameter + "]";
+		return "[brand=" + brand + ", diameter=" + diameter + "]";
 	}
 	
 }

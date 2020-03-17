@@ -15,5 +15,12 @@ public abstract class Vehicle {
 		this.color = color;
 	}
 	
+	@Override
+	public String toString() {
+		
+		return " Plate= " +plate+ " brand= "+brand+" color= "+color+" wheels= "+wheels;
+				
+	}
+	
 	
 }

@@ -32,6 +32,8 @@ public class Main {
 		frontWheels= new ArrayList<Wheel>();
 		backWheels = new ArrayList<Wheel>();
 		
+		System.out.println(car1.toString());
+		
 		for (int i=0; i<4; i++) {
 			if (i<2) {
 				frontWheels.add(CreatedWheel(input));
