@@ -3,6 +3,8 @@ package com.vehicles.project;
 import java.util.List;
 
 public class Car extends Vehicle {
+	
+	static final int NUM_WHEELS = 4; 
 
 	public Car(String plate, String brand, String color) {
 		super(plate, brand, color);
